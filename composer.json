@@ -1,0 +1,21 @@
+{
+    "name": "crx/hyperf-php-elasticsearch",
+    "autoload": {
+        "psr-4": {
+            "Crx\\HyperfPhpElasticsearch\\": "src/"
+        }
+    },
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "elasticsearch/elasticsearch": "^7.0.0",
+        "hyperf/elasticsearch": "^2.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "crx",
+            "email": "chenrunxuan0506@163.com"
+        }
+    ]
+}
